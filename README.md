@@ -16,22 +16,24 @@
 
 ## About
 
-I'm a final-year CS undergrad obsessed with the gap between ML models that *predict* and systems that *explain and prescribe*. My work spans agentic AI architectures, audio deep learning, distributed systems, and network security — with a consistent focus on making complex ML legible and actionable.
+I'm a Third-year CS & Electronics undergrad obsessed with the gap between ML models that *predict* and systems that *explain and prescribe*. My work spans agentic AI architectures, audio deep learning, distributed systems, and network security — with a consistent focus on making complex ML legible and actionable.
 
-Currently working on **Knowa** — an ML platform for non-technical users that auto-detects problem types, trains models, and generates grounded prescriptive strategies using a 5-agent agentic architecture. The core research contribution (87% full grounding rate across 5 business domains) addresses a formally identified open problem in agentic AI: *how do you ensure LLM-generated recommendations are causally grounded in model evidence, not hallucinated?*
+Currently building **Knowa** — an ML platform for non-technical users with a 5-agent agentic architecture. The core research problem: *how do you ensure LLM-generated recommendations are causally grounded in model evidence, not hallucinated?* Early results show 87% full grounding rate across 5 business domains.
 
 ---
 
 ## Featured Projects
 
-### 🧠 [Knowa](https://github.com/ShubhamPenkar/knowa) — Agentic ML Platform for Non-Technical Users
+### 🧠 Knowa — Agentic ML Platform for Non-Technical Users `🚧 In Progress`
 > `Python` `FastAPI` `React` `SHAP` `DiCE` `LLMs` `Multi-Agent`
 
-An end-to-end ML platform that removes the need for data science expertise. Users upload data, describe their business problem, and Knowa handles everything — from problem type detection to model training to actionable strategy generation.
+> **Status:** Active development. Research prototype phase — not yet deployed.
 
-**Architecture:** 5-agent pipeline (Profiler → Trainer → Explainer → Prescriptor → Narrator) with a conversational interface and what-if sandbox.
+An ML platform that removes the need for data science expertise. Users describe their business problem, upload data, and Knowa handles problem detection, model training, and actionable strategy generation.
 
-**Research contribution:** Grounded prescriptive strategy generation achieving **87% full grounding rate** across 5 business domains — addressing a formally identified open problem in agentic AI (hallucination of prescriptions not supported by model evidence).
+**Planned architecture:** 5-agent pipeline (Profiler → Trainer → Explainer → Prescriptor → Narrator) with a conversational interface and what-if sandbox.
+
+**Research problem being solved:** Grounded prescriptive strategy generation — ensuring LLM-generated recommendations are causally anchored in model evidence, not hallucinated. Early results: **87% full grounding rate** across 5 business domains.
 
 **Stack:** Python, FastAPI, React, SHAP (feature attribution), DiCE (counterfactual explanations), LLM orchestration.
 
